@@ -1,15 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Importar fuente Poppins (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
+/* Reset básico (opcional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
 body {
-    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed ;
-    font-family: "Poppins", sans-serif;
-    color: #eee;
-    text-shadow: #555 2px 2px;
-    }
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
 
+/* Encabezado */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
 
- 
+.header h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #32d5e0; /* Color de fondo llamativo */
+  border-radius: 8px;
+}
+
+/* Sección de introducción */
+.intro {
+  margin-bottom: 1.5rem;
+}
+
+.intro p {
+  margin-bottom: 0.75rem;
+}
+
+/* Sección de funciones principales */
+.features h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.features ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+}
+
+/* Sección de propiedades de texto */
+.text-properties {
+  margin-bottom: 2rem;
+}
+
+.text-properties h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.text-properties article {
+  margin-bottom: 1.5rem;
+}
+
+.text-properties h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.text-properties pre {
+  background: #f0f0f0;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.text-properties code {
+  font-family: Consolas, monospace;
+  font-size: 0.9rem;
+}
+
+/* Ejemplo de color azul */
+#ejemplo1 {
+  color: blue;
+  font-weight: 500;
+}
+
+/* Botón */
+button {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: 0.3s;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  border-radius: 0 0 8px 8px;
+}

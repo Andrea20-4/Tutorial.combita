@@ -1,33 +1,40 @@
 # Tutorial.combita.Paula
-Cómo puedes dar formato a tus textos con CSS.
 
+## Cómo puedes dar formato a tus textos con CSS
 
-En CSS (Cascading Style Sheets), puedes dar formato a tus textos de diversas maneras. Aquí te dejo algunas de las propiedades más comunes que puedes usar para dar formato a los textos:
+En este tutorial aprenderás a modificar el formato de tus textos con CSS. Abordamos propiedades como:
+- Color de texto
+- Tamaño de texto
+- Tipo de fuente
+- Estilo de fuente (cursiva, negrita, etc.)
+- Altura de línea
+- Transformación del texto (mayúsculas, minúsculas)
+- Alineación
+- Espaciado entre letras
+- Sombra en el texto
+- Decoración del texto
 
-1. tamaño de texo 
+Además, **incluimos un ejemplo en JavaScript** para que veas cómo se pueden cambiar dinámicamente los estilos desde el código.
 
-2. Tipo de fuente
+### Requisitos previos
+- Conocimientos básicos de HTML y CSS.
+- Un navegador web para visualizar los cambios.
+- (Opcional) Conocimientos básicos de JavaScript para entender el ejemplo de cambio de color.
 
-3. Altura de la línea
+### Estructura del proyecto
+- **index.html**: Estructura principal de la página.
+- **styles.css**: Hoja de estilo que da formato a nuestro contenido.
+- **script.js**: Ejemplo básico de interacción para cambiar el color del texto.
 
-4. Transformación del texto
+### Pasos para usar este tutorial
+1. Clona o descarga este repositorio.
+2. Abre el archivo `index.html` en tu navegador.
+3. Explora las secciones y revisa el código CSS en `styles.css`.
+4. Haz clic en el botón “Cambiar color con JS” para ver cómo cambia el color del texto dinámicamente.
 
-5. Alineación del texto
+### Conclusiones
+- Con CSS puedes controlar el aspecto visual de tus páginas web de manera sencilla y potente.
+- El uso de JavaScript te permite añadir interactividad, como cambiar estilos en tiempo real.
+- Practicar con ejemplos y experimentar con distintas propiedades es la mejor forma de aprender.
 
-6. Espaciado entre letras
-
-7. Sombra en el texto
-
-8. Decoración del texto
-
-9. Paso de la fuente 
-
-10. Estilo de la fuente 
-
-11. color de texto 
-
-
-
-
-
-
+¡Disfruta tu proceso de aprendizaje!
