@@ -1,25 +1,25 @@
-/* Importar fuente Poppins (opcional) */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
-/* Reset básico (opcional) */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilos generales */
+
 body {
   font-family: "Poppins", sans-serif;
-  background: #f4f4f4;
-  color: #333;
+  background: #f4f4f4; 
+  color: #333;        
   line-height: 1.5;
 }
 
-/* Encabezado */
+
 .header {
-  background: #333;
-  color: #ccbbbb;
+  background: #2c3e50; 
+  color: #fff;        
   padding: 1rem;
   text-align: center;
 }
@@ -29,16 +29,16 @@ body {
   font-weight: 500;
 }
 
-/* Contenedor principal */
+
 .container {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
-  background: #88ecf3; /* Color de fondo llamativo */
+  background: #fff;     
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05); 
 }
 
-/* Sección de introducción */
 .intro {
   margin-bottom: 1.5rem;
 }
@@ -47,12 +47,12 @@ body {
   margin-bottom: 0.75rem;
 }
 
-/* Sección de funciones principales */
+
 .features h2 {
   margin-bottom: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #2ad2f0;
+  color: #2c3e50; 
 }
 
 .features ul {
@@ -65,7 +65,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Sección de propiedades de texto */
+
 .text-properties {
   margin-bottom: 2rem;
 }
@@ -73,7 +73,7 @@ body {
 .text-properties h2 {
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #ecf3f3;
+  color: #2c3e50;
 }
 
 .text-properties article {
@@ -98,67 +98,72 @@ body {
   font-family: Consolas, monospace;
   font-size: 0.9rem;
 }
-
-/* Ejemplo de color azul */
+ 
 #ejemplo1 {
   color: blue;
   font-weight: 500;
 }
 
 #ejemplo2 {
-    color: rgb(255, 51, 0);
-    
-    font-size: 36px;
-  }
+  color: #16a085;
+  font-size: 36px;
+}
 
 #ejemplo3 {
-    color: rgb(255, 51, 0);
-    font-family: Arial, sans-serif;  
+  color: #16a085;
+  font-family: Arial, sans-serif;  
 }
 
 #ejemplo4 {
-    color: rgb(255, 51, 0);
-    font-style: italic;  
+  color: #16a085;
+  font-style: italic;
 }
 
 #ejemplo5 {
-    color: rgb(255, 51, 0);
-    font-weight: bold;
-      
+  color: #16a085;
+  font-weight: bold;
 }
+
 #ejemplo6 {
-    color: rgb(255, 51, 0);
-    line-height: 1.6;
-      
+  color: #16a085;
+  line-height: 1.6;
 }
+
+
 #ejemplo7 {
-    color: rgb(255, 51, 0);
-    text-transform: uppercase;
+  color: #16a085;
+  text-transform: uppercase;
 }
+
+
 #ejemplo8 {
-    color: rgb(255, 51, 0);
-    text-align: center;
+  color: #16a085;
+  text-align: center;
 }
+
+
 #ejemplo9 {
-    color: rgb(255, 51, 0);
-    letter-spacing: 2px; 
-      
+  color: #16a085;
+  letter-spacing: 2px; 
 }
+
+
 #ejemplo10 {
-    color: rgb(255, 51, 0);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  color: #16a085;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
+
+
 #ejemplo11 {
-    color: rgb(255, 51, 0);
-    text-decoration: underline; 
+  color: #16a085;
+  text-decoration: underline;
 }
 
 
-/* Botón */
 button {
-  background-color: #fff;
-  color: #333;
-  border: 2px solid #333;
+  background-color: #1abc9c; /* Color de acento (turquesa) */
+  color: #fff;
+  border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
   font-size: 0.9rem;
@@ -168,15 +173,14 @@ button {
 }
 
 button:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: #16a085; /* Un poco más oscuro al pasar el mouse */
 }
 
-/* Footer */
+
 .footer {
   text-align: center;
   padding: 1rem;
-  background: #333;
+  background: #2c3e50;
   color: #fff;
   font-size: 0.9rem;
   margin-top: 2rem;
