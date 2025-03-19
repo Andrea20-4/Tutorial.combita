@@ -19,7 +19,7 @@ body {
 /* Encabezado */
 .header {
   background: #333;
-  color: #fff;
+  color: #ccbbbb;
   padding: 1rem;
   text-align: center;
 }
@@ -34,7 +34,7 @@ body {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
-  background: #32d5e0; /* Color de fondo llamativo */
+  background: #88ecf3; /* Color de fondo llamativo */
   border-radius: 8px;
 }
 
@@ -52,7 +52,7 @@ body {
   margin-bottom: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #444;
+  color: #2ad2f0;
 }
 
 .features ul {
@@ -73,7 +73,7 @@ body {
 .text-properties h2 {
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #444;
+  color: #ecf3f3;
 }
 
 .text-properties article {
@@ -104,6 +104,55 @@ body {
   color: blue;
   font-weight: 500;
 }
+
+#ejemplo2 {
+    color: rgb(255, 51, 0);
+    
+    font-size: 36px;
+  }
+
+#ejemplo3 {
+    color: rgb(255, 51, 0);
+    font-family: Arial, sans-serif;  
+}
+
+#ejemplo4 {
+    color: rgb(255, 51, 0);
+    font-style: italic;  
+}
+
+#ejemplo5 {
+    color: rgb(255, 51, 0);
+    font-weight: bold;
+      
+}
+#ejemplo6 {
+    color: rgb(255, 51, 0);
+    line-height: 1.6;
+      
+}
+#ejemplo7 {
+    color: rgb(255, 51, 0);
+    text-transform: uppercase;
+}
+#ejemplo8 {
+    color: rgb(255, 51, 0);
+    text-align: center;
+}
+#ejemplo9 {
+    color: rgb(255, 51, 0);
+    letter-spacing: 2px; 
+      
+}
+#ejemplo10 {
+    color: rgb(255, 51, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+#ejemplo11 {
+    color: rgb(255, 51, 0);
+    text-decoration: underline; 
+}
+
 
 /* Botón */
 button {
